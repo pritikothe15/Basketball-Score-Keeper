@@ -1,0 +1,49 @@
+.score-keeper-container{
+  background-color: #ffcc99;
+  min-height: 100vh;
+}
+.img-basketball{
+  height:150px;
+  display: block;
+  margin: auto; 
+}
+.score-keeper-container{
+  text-align: center;
+}
+.score-card-container{
+  display: flex;
+  justify-content: space-around;
+}
+.score-card{
+  background-color: white;
+  width:250px;
+  height:320px;
+  border-radius:15px;
+  padding:10px;
+  border: 5px double black;
+}
+.score-card-heading{
+  text-align:center;
+  font-size:30px;
+}
+.score-count{
+  margin: 0;
+  font-size:60px;
+  text-align: center;
+}
+.button-container{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.score-button{
+  height:50px;
+  width:50px;
+  border-radius:50% ;
+  font-size:40px;
+}
+
+.reset-button{
+  font-size:30px;
+  border-radius:5px;
+}
