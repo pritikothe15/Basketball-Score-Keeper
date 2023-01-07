@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <div className=" score-keeper-container">
-        <img src={imgBasketball} className="img-basketball" />
+        <img src={imgBasketball} className="img-basketball" alt="" />
         <h2 className="score-keeper-heading"> Basketball Score Keeper</h2>
 
         <div className="score-card-container">
